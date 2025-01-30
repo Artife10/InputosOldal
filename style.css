@@ -8,10 +8,13 @@ a{
     color: black;
 }
 
+p{
+    color: red;
+}
+
 .container{
     margin: auto;
     text-align: center;
-    line-height: 300%;
     background-color: rgb(31, 31, 31);
     border-style: solid;
     border-color: white;
@@ -24,7 +27,6 @@ a{
 
 @media only screen and (max-width: 600px) {
     .container {
-      line-height: 400%;
       width: 100%;
     }
   }
